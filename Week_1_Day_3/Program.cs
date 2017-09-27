@@ -27,23 +27,54 @@ namespace Week_1_Day_3
             //    Console.WriteLine("That makes sense.");
             //}
 
-            
-            Console.WriteLine("Please enter the day of the week.");
-            string day = Console.ReadLine();
-            if (day == "Monday")
-            {
-                Console.WriteLine("That sucks bruh.");
-            }
-            else if (day == "Friday")
-            {
-                Console.WriteLine("Partiezeit!");
-            }
-            else
-            {
-                Console.WriteLine("Weekend!");
-            }
+
+            //Console.WriteLine("Please enter the day of the week.");
+            //string day = Console.ReadLine();
+            //if (day == "Monday")
+            //{
+            //    Console.WriteLine("That sucks bruh.");
+            //}
+            //else if (day == "Friday")
+            //{
+            //    Console.WriteLine("Partiezeit!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Weekend!");
+            //}
 
 
+            //If is used to account for a range, switch is used if mulitple scenarios have same outcome.
+            //Console.WriteLine("How old are you ?");
+            //int userAge = int.Parse(Console.ReadLine());
+
+            //if (userAge >= 0 && userAge <=1)
+            //{
+            //    Console.WriteLine("Just a baby.");
+            //}
+
+            //else if(userAge > 1 && userAge < 4)
+            //{
+            //    Console.WriteLine("Yay toddlers!");
+            //}
+
+            //else if(userAge >= 4 && userAge < 13)
+            //{
+            //    Console.WriteLine("Enjoy your childgood.");
+            //}
+
+            //else if(userAge >= 13 && userAge < 65)
+            //{
+            //    Console.WriteLine("Life is awkward.");
+            //}
+            //else if(userAge >= 65 && userAge < 100)
+            //{
+            //    Console.WriteLine("Enjoy your retirement.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("That's not really your age.");
+            //}
         }
     }
 }
