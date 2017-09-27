@@ -75,6 +75,40 @@ namespace Week_1_Day_3
             //{
             //    Console.WriteLine("That's not really your age.");
             //}
+
+            //Switch statements.
+            //Ctrl + K + D organizes the 
+            Console.WriteLine("How many points did you earn ?");
+            int pointsEarned = int.Parse(Console.ReadLine());
+
+            switch (pointsEarned) // Selector for the variable, you have to enter the variable name that you are checking.
+            {
+                case 0: //Ends with a : symbol.
+                    Console.WriteLine("You loose.");
+                    break; // Always have to break at the end of the case.
+                case 1:
+                    Console.WriteLine("Needs practice.");
+                    break;
+                case 2:
+                    Console.WriteLine("On target.");
+                    break;
+                case 3:
+                    Console.WriteLine("Superstar.");
+                    break;
+                case 4:
+                    Console.WriteLine("Overachiever.");
+                    break;
+                case 5:
+                    Console.WriteLine("You cheated.");
+                    break;
+                default: //Anything else that might come up.
+                    Console.WriteLine("Invalid score entered.");
+                    break;
+
+
+
+            }
+
         }
     }
 }
